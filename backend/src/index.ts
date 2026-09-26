@@ -9,7 +9,7 @@ const app: Application = express();
 // body parsing middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-//prova
+
 // API Routes
 app.use("/usr", employeeRoutes);
 

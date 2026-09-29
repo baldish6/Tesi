@@ -1,1 +1,35 @@
 @import 'tailwindcss';
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  height: 1em;
+}
+
+.nbrd {
+  border-right: 0;
+  border-left: 0;
+}
+
+.brlf {
+  border-right: 0;
+}
+
+.ltdg {
+  text-align: right;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
